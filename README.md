@@ -45,13 +45,8 @@ Strapi gives you many possible deployment options for your project. Find the one
 - [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
 
 Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+=== reframe-strapi-backend Config Vars
 
-## ✨ Community
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+DATABASE_URL: postgres://jfzwfwsjoshxab:fa47e4c76cc45dfb44cbb98a3d5df57a9e2a48b366bb82ca19c2208230a9744d@ec2-52-200-215-149.compute-1.amazonaws.com:5432/dcauulon74nbg5
