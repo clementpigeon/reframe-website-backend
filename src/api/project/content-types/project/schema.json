@@ -21,7 +21,7 @@
     "description": {
       "type": "richtext"
     },
-    "thumbnail": {
+    "thumbnail_image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -50,6 +50,16 @@
     },
     "is_featured": {
       "type": "boolean"
+    },
+    "thumbnail_video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
