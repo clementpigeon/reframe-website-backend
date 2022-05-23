@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project-category",
     "pluralName": "project-categories",
-    "displayName": "Project Category"
+    "displayName": "Project Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,17 @@
       "relation": "manyToMany",
       "target": "api::project.project",
       "inversedBy": "project_categories"
+    },
+    "label_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
