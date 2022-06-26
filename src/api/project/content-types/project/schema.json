@@ -41,9 +41,6 @@
     "client": {
       "type": "string"
     },
-    "links": {
-      "type": "json"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -52,14 +49,24 @@
       "type": "boolean"
     },
     "thumbnail_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "project_links": {
+      "displayName": "project_links",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.project-links"
+    },
+    "links": {
+      "type": "json"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_project_links",
+  "info": {
+    "displayName": "project_links",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "link_1_url": {
+      "type": "string"
+    },
+    "link_1_label": {
+      "type": "string"
+    },
+    "link_2_url": {
+      "type": "string"
+    },
+    "link_2_label": {
+      "type": "string"
+    },
+    "link_3_url": {
+      "type": "string"
+    },
+    "link_3_label": {
+      "type": "string"
+    }
+  }
+}
