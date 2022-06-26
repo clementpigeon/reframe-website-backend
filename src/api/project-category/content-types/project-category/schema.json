@@ -28,6 +28,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "position": {
+      "type": "integer"
     }
   }
 }

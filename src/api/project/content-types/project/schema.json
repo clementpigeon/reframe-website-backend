@@ -65,8 +65,8 @@
       "repeatable": false,
       "component": "shared.project-links"
     },
-    "links": {
-      "type": "json"
+    "position": {
+      "type": "integer"
     }
   }
 }
