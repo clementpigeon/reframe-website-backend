@@ -21,6 +21,9 @@ module.exports = [
             'dl.airtable.com',
             'reframe-strapi.s3.eu-central-1.amazonaws.com',
           ],
+          // Enable the download of the Monaco editor
+          // from cdn.jsdelivr.net.
+          "script-src": ["'self'", "cdn.jsdelivr.net", "blob:"],
           upgradeInsecureRequests: null,
         },
       },
