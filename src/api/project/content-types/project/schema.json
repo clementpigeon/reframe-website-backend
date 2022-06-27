@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "video_link": {
+    "vimeo_link": {
       "type": "string"
     },
     "description": {
@@ -67,6 +67,9 @@
     },
     "position": {
       "type": "integer"
+    },
+    "video_embed_code": {
+      "type": "text"
     }
   }
 }
