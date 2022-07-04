@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_page_slideshow_item_images",
+  "info": {
+    "displayName": "slideshow_item_image",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -59,17 +59,30 @@
         "audios"
       ]
     },
-    "project_links": {
-      "displayName": "project_links",
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.project-links"
-    },
     "position": {
       "type": "integer"
     },
     "video_embed_code": {
       "type": "text"
+    },
+    "vimeo_link_mobile": {
+      "type": "string"
+    },
+    "project_links": {
+      "displayName": "Project link",
+      "type": "component",
+      "repeatable": true,
+      "component": "project-page.project-link"
+    },
+    "description_continued": {
+      "type": "richtext"
+    },
+    "slideshow": {
+      "type": "dynamiczone",
+      "components": [
+        "project-page.slideshow-item-iframe",
+        "project-page.slideshow-item-image"
+      ]
     }
   }
 }

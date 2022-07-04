@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_project_page_slideshow_item_iframes",
+  "info": {
+    "displayName": "slideshow_item_iframe",
+    "icon": "file-code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iframe_embed_code": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
