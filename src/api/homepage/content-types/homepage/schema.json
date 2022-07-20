@@ -38,6 +38,9 @@
     },
     "contact_section_text": {
       "type": "richtext"
+    },
+    "slogan": {
+      "type": "string"
     }
   }
 }
