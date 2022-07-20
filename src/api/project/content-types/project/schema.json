@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "vimeo_link": {
+    "vimeo_player_link": {
       "type": "string"
     },
     "description": {
@@ -62,10 +62,10 @@
     "position": {
       "type": "integer"
     },
-    "video_embed_code": {
+    "non_vimeo_embed_code": {
       "type": "text"
     },
-    "vimeo_link_mobile": {
+    "vimeo_player_link_mobile": {
       "type": "string"
     },
     "project_links": {
