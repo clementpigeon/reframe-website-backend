@@ -83,6 +83,9 @@
         "project-page.slideshow-item-iframe",
         "project-page.slideshow-item-image"
       ]
+    },
+    "vimeo_player_link_square": {
+      "type": "string"
     }
   }
 }
