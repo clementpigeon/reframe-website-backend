@@ -86,6 +86,9 @@
     },
     "vimeo_player_link_square": {
       "type": "string"
+    },
+    "slideshow_title": {
+      "type": "string"
     }
   }
 }
