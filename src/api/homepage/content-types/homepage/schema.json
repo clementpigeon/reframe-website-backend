@@ -41,6 +41,12 @@
     },
     "slogan": {
       "type": "string"
+    },
+    "hero_video_desktop": {
+      "type": "string"
+    },
+    "hero_video_mobile": {
+      "type": "string"
     }
   }
 }
