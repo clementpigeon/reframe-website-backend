@@ -1,0 +1,58 @@
+{
+  "key": "plugin_content_manager_configuration_components::project-page.slideshow-item-iframe",
+  "value": {
+    "uid": "project-page.slideshow-item-iframe",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "iframe_embed_code": {
+        "edit": {
+          "label": "iframe_embed_code",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "iframe_embed_code",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "iframe_embed_code"
+      ],
+      "edit": [
+        [
+          {
+            "name": "iframe_embed_code",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

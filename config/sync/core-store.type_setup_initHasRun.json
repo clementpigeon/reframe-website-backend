@@ -1,0 +1,7 @@
+{
+  "key": "type_setup_initHasRun",
+  "value": true,
+  "type": "boolean",
+  "environment": "production",
+  "tag": null
+}

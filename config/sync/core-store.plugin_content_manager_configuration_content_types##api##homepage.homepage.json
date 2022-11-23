@@ -1,0 +1,187 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::homepage.homepage",
+  "value": {
+    "uid": "api::homepage.homepage",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "team_photo": {
+        "edit": {
+          "label": "team_photo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "team_photo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "team_bio_1": {
+        "edit": {
+          "label": "team_bio_1",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "team_bio_1",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "team_bio_2": {
+        "edit": {
+          "label": "team_bio_2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "team_bio_2",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contact_section_text": {
+        "edit": {
+          "label": "contact_section_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contact_section_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "slogan": {
+        "edit": {
+          "label": "slogan",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slogan",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "seo",
+        "createdAt",
+        "team_photo"
+      ],
+      "edit": [
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "team_photo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "team_bio_1",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "team_bio_2",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contact_section_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "slogan",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
